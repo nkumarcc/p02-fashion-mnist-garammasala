@@ -278,4 +278,3 @@ There is also no need to re-run the default setting over and over again, just re
 
 15. Reduce your SGD learning rate by 20x, and train MNIST on your ultimate Fashion-MNIST model
      - Compare this to your original MNIST training run and the previous question
-
