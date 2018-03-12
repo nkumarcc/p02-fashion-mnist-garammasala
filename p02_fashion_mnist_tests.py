@@ -267,8 +267,8 @@ def test_nets():
         check_net(model)
         model = p02_fashion_mnist.P2Q11ExtraConvNet()
         check_net(model)
-        # model = p02_fashion_mnist.P2Q12RemoveLayerNet()
-        # check_net(model)
+        model = p02_fashion_mnist.P2Q12RemoveLayerNet()
+        check_net(model)
         model = p02_fashion_mnist.P2Q13UltimateNet()
         check_net(model)
     except NotImplementedError:
